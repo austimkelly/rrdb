@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F21908B152003080035C66F /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F21908A152003080035C66F /* icon-72.png */; };
+		8F49962414F834C500709D88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F49962314F834C500709D88 /* UIKit.framework */; };
+		8F49962614F834C500709D88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F49962514F834C500709D88 /* Foundation.framework */; };
+		8F49962814F834C500709D88 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F49962714F834C500709D88 /* CoreGraphics.framework */; };
+		8F49962E14F834C500709D88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F49962C14F834C500709D88 /* InfoPlist.strings */; };
+		8F49963014F834C500709D88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49962F14F834C500709D88 /* main.m */; };
+		8F49963414F834C500709D88 /* RockAndRollBirthdaysAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49963314F834C500709D88 /* RockAndRollBirthdaysAppDelegate.m */; };
+		8F49963714F834C500709D88 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F49963514F834C500709D88 /* MainStoryboard_iPhone.storyboard */; };
+		8F49963A14F834C500709D88 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F49963814F834C500709D88 /* MainStoryboard_iPad.storyboard */; };
+		8F49963D14F834C500709D88 /* RockAndRollBirthdaysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49963C14F834C500709D88 /* RockAndRollBirthdaysViewController.m */; };
+		8F49964614F8350D00709D88 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F49964514F8350D00709D88 /* CoreData.framework */; };
+		8F4B4C4E151B70CD005C36CA /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4B4C4D151B70CD005C36CA /* NSDate+Utils.m */; };
+		8F582C5C1518075F00011004 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F582C5B1518075F00011004 /* CoreDataTableViewController.m */; };
+		8F664BBD1517DCDE001E739D /* RRDBModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F664BBB1517DCDE001E739D /* RRDBModel.xcdatamodeld */; };
+		8FB181CF152004DD003E933F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB181CE152004DD003E933F /* Default.png */; };
+		8FB181D31520071F003E933F /* AllArtistsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB181D21520071F003E933F /* AllArtistsTableViewController.m */; };
+		8FBA829D152CCF1C001947CF /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FBA829C152CCF1C001947CF /* Twitter.framework */; };
+		E0D76CC2151A1E3F00607382 /* Artist+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D76CC1151A1E3F00607382 /* Artist+Extension.m */; };
+		E0D76CC5151A2EA100607382 /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D76CC4151A2EA100607382 /* Artist.m */; };
+		E0D76CDA151A5B5600607382 /* rrdb in Resources */ = {isa = PBXBuildFile; fileRef = E0D76CD9151A5B5600607382 /* rrdb */; };
+		E0D76CDD151A5E5600607382 /* ArtistDetailTableViewConrtoller.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D76CDC151A5E5600607382 /* ArtistDetailTableViewConrtoller.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F21908A152003080035C66F /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "RockAndRollBirthdays/images/icon-72.png"; sourceTree = "<group>"; };
+		8F49961F14F834C500709D88 /* RockAndRollBirthdays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockAndRollBirthdays.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F49962314F834C500709D88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8F49962514F834C500709D88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F49962714F834C500709D88 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8F49962B14F834C500709D88 /* RockAndRollBirthdays-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RockAndRollBirthdays-Info.plist"; sourceTree = "<group>"; };
+		8F49962D14F834C500709D88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F49962F14F834C500709D88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F49963114F834C500709D88 /* RockAndRollBirthdays-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RockAndRollBirthdays-Prefix.pch"; sourceTree = "<group>"; };
+		8F49963214F834C500709D88 /* RockAndRollBirthdaysAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RockAndRollBirthdaysAppDelegate.h; sourceTree = "<group>"; };
+		8F49963314F834C500709D88 /* RockAndRollBirthdaysAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RockAndRollBirthdaysAppDelegate.m; sourceTree = "<group>"; };
+		8F49963614F834C500709D88 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		8F49963914F834C500709D88 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		8F49963B14F834C500709D88 /* RockAndRollBirthdaysViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RockAndRollBirthdaysViewController.h; sourceTree = "<group>"; };
+		8F49963C14F834C500709D88 /* RockAndRollBirthdaysViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RockAndRollBirthdaysViewController.m; sourceTree = "<group>"; };
+		8F49964514F8350D00709D88 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8F4B4C4C151B70CD005C36CA /* NSDate+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utils.h"; sourceTree = "<group>"; };
+		8F4B4C4D151B70CD005C36CA /* NSDate+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utils.m"; sourceTree = "<group>"; };
+		8F582C5A1518075F00011004 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		8F582C5B1518075F00011004 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		8F664BBC1517DCDE001E739D /* RRDBModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RRDBModel.xcdatamodel; sourceTree = "<group>"; };
+		8FB181CE152004DD003E933F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = RockAndRollBirthdays/images/Default.png; sourceTree = "<group>"; };
+		8FB181D11520071F003E933F /* AllArtistsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AllArtistsTableViewController.h; path = ../AllArtistsTableViewController.h; sourceTree = "<group>"; };
+		8FB181D21520071F003E933F /* AllArtistsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AllArtistsTableViewController.m; path = ../AllArtistsTableViewController.m; sourceTree = "<group>"; };
+		8FBA829C152CCF1C001947CF /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		E0D76CC0151A1E3F00607382 /* Artist+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Artist+Extension.h"; sourceTree = "<group>"; };
+		E0D76CC1151A1E3F00607382 /* Artist+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Artist+Extension.m"; sourceTree = "<group>"; };
+		E0D76CC3151A2EA100607382 /* Artist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Artist.h; sourceTree = "<group>"; };
+		E0D76CC4151A2EA100607382 /* Artist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Artist.m; sourceTree = "<group>"; };
+		E0D76CD9151A5B5600607382 /* rrdb */ = {isa = PBXFileReference; lastKnownFileType = file; name = rrdb; path = RockAndRollBirthdays/rrdb; sourceTree = "<group>"; };
+		E0D76CDB151A5E5600607382 /* ArtistDetailTableViewConrtoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistDetailTableViewConrtoller.h; sourceTree = "<group>"; };
+		E0D76CDC151A5E5600607382 /* ArtistDetailTableViewConrtoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistDetailTableViewConrtoller.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F49961C14F834C500709D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBA829D152CCF1C001947CF /* Twitter.framework in Frameworks */,
+				8F49964614F8350D00709D88 /* CoreData.framework in Frameworks */,
+				8F49962414F834C500709D88 /* UIKit.framework in Frameworks */,
+				8F49962614F834C500709D88 /* Foundation.framework in Frameworks */,
+				8F49962814F834C500709D88 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F219087152001F70035C66F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8F21908A152003080035C66F /* icon-72.png */,
+				8FB181CE152004DD003E933F /* Default.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		8F49961414F834C500709D88 = {
+			isa = PBXGroup;
+			children = (
+				8FBA829C152CCF1C001947CF /* Twitter.framework */,
+				8F7B039915181E7000225158 /* Resources */,
+				8F49962914F834C500709D88 /* RockAndRollBirthdays */,
+				8F49962214F834C500709D88 /* Frameworks */,
+				8F49962014F834C500709D88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F49962014F834C500709D88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F49961F14F834C500709D88 /* RockAndRollBirthdays.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F49962214F834C500709D88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F49964514F8350D00709D88 /* CoreData.framework */,
+				8F49962314F834C500709D88 /* UIKit.framework */,
+				8F49962514F834C500709D88 /* Foundation.framework */,
+				8F49962714F834C500709D88 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F49962914F834C500709D88 /* RockAndRollBirthdays */ = {
+			isa = PBXGroup;
+			children = (
+				8F4B4C50151B903F005C36CA /* Model */,
+				8F4B4C4F151B9033005C36CA /* ViewController */,
+				8F49963214F834C500709D88 /* RockAndRollBirthdaysAppDelegate.h */,
+				8F49963314F834C500709D88 /* RockAndRollBirthdaysAppDelegate.m */,
+				8F49962A14F834C500709D88 /* Supporting Files */,
+			);
+			path = RockAndRollBirthdays;
+			sourceTree = "<group>";
+		};
+		8F49962A14F834C500709D88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F664BBB1517DCDE001E739D /* RRDBModel.xcdatamodeld */,
+				8F49962B14F834C500709D88 /* RockAndRollBirthdays-Info.plist */,
+				8F49962C14F834C500709D88 /* InfoPlist.strings */,
+				8F49962F14F834C500709D88 /* main.m */,
+				8F49963114F834C500709D88 /* RockAndRollBirthdays-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F4B4C4F151B9033005C36CA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E0D76CDB151A5E5600607382 /* ArtistDetailTableViewConrtoller.h */,
+				E0D76CDC151A5E5600607382 /* ArtistDetailTableViewConrtoller.m */,
+				8F582C5A1518075F00011004 /* CoreDataTableViewController.h */,
+				8F582C5B1518075F00011004 /* CoreDataTableViewController.m */,
+				8F49963B14F834C500709D88 /* RockAndRollBirthdaysViewController.h */,
+				8F49963C14F834C500709D88 /* RockAndRollBirthdaysViewController.m */,
+				8FB181D11520071F003E933F /* AllArtistsTableViewController.h */,
+				8FB181D21520071F003E933F /* AllArtistsTableViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		8F4B4C50151B903F005C36CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0D76CC0151A1E3F00607382 /* Artist+Extension.h */,
+				E0D76CC1151A1E3F00607382 /* Artist+Extension.m */,
+				8F4B4C4C151B70CD005C36CA /* NSDate+Utils.h */,
+				8F4B4C4D151B70CD005C36CA /* NSDate+Utils.m */,
+				E0D76CC3151A2EA100607382 /* Artist.h */,
+				E0D76CC4151A2EA100607382 /* Artist.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8F7B039915181E7000225158 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F219087152001F70035C66F /* images */,
+				E0D76CD9151A5B5600607382 /* rrdb */,
+				8F49963814F834C500709D88 /* MainStoryboard_iPad.storyboard */,
+				8F49963514F834C500709D88 /* MainStoryboard_iPhone.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F49961E14F834C500709D88 /* RockAndRollBirthdays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F49964014F834C500709D88 /* Build configuration list for PBXNativeTarget "RockAndRollBirthdays" */;
+			buildPhases = (
+				8F49961B14F834C500709D88 /* Sources */,
+				8F49961C14F834C500709D88 /* Frameworks */,
+				8F49961D14F834C500709D88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RockAndRollBirthdays;
+			productName = RockAndRollBirthdays;
+			productReference = 8F49961F14F834C500709D88 /* RockAndRollBirthdays.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F49961614F834C500709D88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Accenture;
+			};
+			buildConfigurationList = 8F49961914F834C500709D88 /* Build configuration list for PBXProject "RockAndRollBirthdays" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8F49961414F834C500709D88;
+			productRefGroup = 8F49962014F834C500709D88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F49961E14F834C500709D88 /* RockAndRollBirthdays */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F49961D14F834C500709D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F49962E14F834C500709D88 /* InfoPlist.strings in Resources */,
+				8F49963714F834C500709D88 /* MainStoryboard_iPhone.storyboard in Resources */,
+				8F49963A14F834C500709D88 /* MainStoryboard_iPad.storyboard in Resources */,
+				E0D76CDA151A5B5600607382 /* rrdb in Resources */,
+				8F21908B152003080035C66F /* icon-72.png in Resources */,
+				8FB181CF152004DD003E933F /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F49961B14F834C500709D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F49963014F834C500709D88 /* main.m in Sources */,
+				8F49963414F834C500709D88 /* RockAndRollBirthdaysAppDelegate.m in Sources */,
+				8F49963D14F834C500709D88 /* RockAndRollBirthdaysViewController.m in Sources */,
+				8F664BBD1517DCDE001E739D /* RRDBModel.xcdatamodeld in Sources */,
+				8F582C5C1518075F00011004 /* CoreDataTableViewController.m in Sources */,
+				E0D76CC2151A1E3F00607382 /* Artist+Extension.m in Sources */,
+				E0D76CC5151A2EA100607382 /* Artist.m in Sources */,
+				E0D76CDD151A5E5600607382 /* ArtistDetailTableViewConrtoller.m in Sources */,
+				8F4B4C4E151B70CD005C36CA /* NSDate+Utils.m in Sources */,
+				8FB181D31520071F003E933F /* AllArtistsTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F49962C14F834C500709D88 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F49962D14F834C500709D88 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8F49963514F834C500709D88 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F49963614F834C500709D88 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			path = RockAndRollBirthdays;
+			sourceTree = "<group>";
+		};
+		8F49963814F834C500709D88 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F49963914F834C500709D88 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			path = RockAndRollBirthdays;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F49963E14F834C500709D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F49963F14F834C500709D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F49964114F834C500709D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RockAndRollBirthdays/RockAndRollBirthdays-Prefix.pch";
+				INFOPLIST_FILE = "RockAndRollBirthdays/RockAndRollBirthdays-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8F49964214F834C500709D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RockAndRollBirthdays/RockAndRollBirthdays-Prefix.pch";
+				INFOPLIST_FILE = "RockAndRollBirthdays/RockAndRollBirthdays-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F49961914F834C500709D88 /* Build configuration list for PBXProject "RockAndRollBirthdays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F49963E14F834C500709D88 /* Debug */,
+				8F49963F14F834C500709D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F49964014F834C500709D88 /* Build configuration list for PBXNativeTarget "RockAndRollBirthdays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F49964114F834C500709D88 /* Debug */,
+				8F49964214F834C500709D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8F664BBB1517DCDE001E739D /* RRDBModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8F664BBC1517DCDE001E739D /* RRDBModel.xcdatamodel */,
+			);
+			currentVersion = 8F664BBC1517DCDE001E739D /* RRDBModel.xcdatamodel */;
+			name = RRDBModel.xcdatamodeld;
+			path = ../RRDBModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8F49961614F834C500709D88 /* Project object */;
+}

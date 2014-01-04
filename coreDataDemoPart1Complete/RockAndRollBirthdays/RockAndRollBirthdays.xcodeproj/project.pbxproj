@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F40912C151CDB3B00BED9D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F40912B151CDB3B00BED9D5 /* UIKit.framework */; };
+		8F40912E151CDB3B00BED9D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F40912D151CDB3B00BED9D5 /* Foundation.framework */; };
+		8F409130151CDB3B00BED9D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F40912F151CDB3B00BED9D5 /* CoreGraphics.framework */; };
+		8F409136151CDB3B00BED9D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F409134151CDB3B00BED9D5 /* InfoPlist.strings */; };
+		8F409138151CDB3B00BED9D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F409137151CDB3B00BED9D5 /* main.m */; };
+		8F40913C151CDB3B00BED9D5 /* RockAndRollBirthdaysAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F40913B151CDB3B00BED9D5 /* RockAndRollBirthdaysAppDelegate.m */; };
+		8F40913F151CDB3B00BED9D5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F40913D151CDB3B00BED9D5 /* MainStoryboard_iPhone.storyboard */; };
+		8F409142151CDB3B00BED9D5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F409140151CDB3B00BED9D5 /* MainStoryboard_iPad.storyboard */; };
+		8F409145151CDB3B00BED9D5 /* RockAndRollBirthdaysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F409144151CDB3B00BED9D5 /* RockAndRollBirthdaysViewController.m */; };
+		8F409150151CDBA700BED9D5 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F40914C151CDBA700BED9D5 /* CoreDataTableViewController.m */; };
+		8F409151151CDBA700BED9D5 /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F40914E151CDBA700BED9D5 /* NSDate+Utils.m */; };
+		8F409152151CDBA700BED9D5 /* rrdb.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8F40914F151CDBA700BED9D5 /* rrdb.csv */; };
+		8F409155151CE12000BED9D5 /* RRDBModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F409153151CE11F00BED9D5 /* RRDBModel.xcdatamodeld */; };
+		8F409158151CE27B00BED9D5 /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F409157151CE27B00BED9D5 /* Artist.m */; };
+		8F40915B151CE41100BED9D5 /* Artist+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F40915A151CE41100BED9D5 /* Artist+Extension.m */; };
+		8F40915D151CE6B100BED9D5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F40915C151CE6B100BED9D5 /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F409127151CDB3B00BED9D5 /* RockAndRollBirthdays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockAndRollBirthdays.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F40912B151CDB3B00BED9D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8F40912D151CDB3B00BED9D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F40912F151CDB3B00BED9D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8F409133151CDB3B00BED9D5 /* RockAndRollBirthdays-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RockAndRollBirthdays-Info.plist"; sourceTree = "<group>"; };
+		8F409135151CDB3B00BED9D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F409137151CDB3B00BED9D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F409139151CDB3B00BED9D5 /* RockAndRollBirthdays-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RockAndRollBirthdays-Prefix.pch"; sourceTree = "<group>"; };
+		8F40913A151CDB3B00BED9D5 /* RockAndRollBirthdaysAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RockAndRollBirthdaysAppDelegate.h; sourceTree = "<group>"; };
+		8F40913B151CDB3B00BED9D5 /* RockAndRollBirthdaysAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RockAndRollBirthdaysAppDelegate.m; sourceTree = "<group>"; };
+		8F40913E151CDB3B00BED9D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		8F409141151CDB3B00BED9D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		8F409143151CDB3B00BED9D5 /* RockAndRollBirthdaysViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RockAndRollBirthdaysViewController.h; sourceTree = "<group>"; };
+		8F409144151CDB3B00BED9D5 /* RockAndRollBirthdaysViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RockAndRollBirthdaysViewController.m; sourceTree = "<group>"; };
+		8F40914B151CDBA700BED9D5 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		8F40914C151CDBA700BED9D5 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		8F40914D151CDBA700BED9D5 /* NSDate+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utils.h"; sourceTree = "<group>"; };
+		8F40914E151CDBA700BED9D5 /* NSDate+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utils.m"; sourceTree = "<group>"; };
+		8F40914F151CDBA700BED9D5 /* rrdb.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rrdb.csv; sourceTree = "<group>"; };
+		8F409154151CE11F00BED9D5 /* RRDBModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RRDBModel.xcdatamodel; sourceTree = "<group>"; };
+		8F409156151CE27B00BED9D5 /* Artist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Artist.h; sourceTree = "<group>"; };
+		8F409157151CE27B00BED9D5 /* Artist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Artist.m; sourceTree = "<group>"; };
+		8F409159151CE41100BED9D5 /* Artist+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Artist+Extension.h"; sourceTree = "<group>"; };
+		8F40915A151CE41100BED9D5 /* Artist+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Artist+Extension.m"; sourceTree = "<group>"; };
+		8F40915C151CE6B100BED9D5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F409124151CDB3B00BED9D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F40915D151CE6B100BED9D5 /* CoreData.framework in Frameworks */,
+				8F40912C151CDB3B00BED9D5 /* UIKit.framework in Frameworks */,
+				8F40912E151CDB3B00BED9D5 /* Foundation.framework in Frameworks */,
+				8F409130151CDB3B00BED9D5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F40911C151CDB3B00BED9D5 = {
+			isa = PBXGroup;
+			children = (
+				8F40915C151CE6B100BED9D5 /* CoreData.framework */,
+				8F409131151CDB3B00BED9D5 /* RockAndRollBirthdays */,
+				8F40912A151CDB3B00BED9D5 /* Frameworks */,
+				8F409128151CDB3B00BED9D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F409128151CDB3B00BED9D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F409127151CDB3B00BED9D5 /* RockAndRollBirthdays.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F40912A151CDB3B00BED9D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F40912B151CDB3B00BED9D5 /* UIKit.framework */,
+				8F40912D151CDB3B00BED9D5 /* Foundation.framework */,
+				8F40912F151CDB3B00BED9D5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F409131151CDB3B00BED9D5 /* RockAndRollBirthdays */ = {
+			isa = PBXGroup;
+			children = (
+				8F40913A151CDB3B00BED9D5 /* RockAndRollBirthdaysAppDelegate.h */,
+				8F40913B151CDB3B00BED9D5 /* RockAndRollBirthdaysAppDelegate.m */,
+				8F40913D151CDB3B00BED9D5 /* MainStoryboard_iPhone.storyboard */,
+				8F409140151CDB3B00BED9D5 /* MainStoryboard_iPad.storyboard */,
+				8F409143151CDB3B00BED9D5 /* RockAndRollBirthdaysViewController.h */,
+				8F409144151CDB3B00BED9D5 /* RockAndRollBirthdaysViewController.m */,
+				8F409153151CE11F00BED9D5 /* RRDBModel.xcdatamodeld */,
+				8F409156151CE27B00BED9D5 /* Artist.h */,
+				8F409159151CE41100BED9D5 /* Artist+Extension.h */,
+				8F40915A151CE41100BED9D5 /* Artist+Extension.m */,
+				8F409157151CE27B00BED9D5 /* Artist.m */,
+				8F40914B151CDBA700BED9D5 /* CoreDataTableViewController.h */,
+				8F40914C151CDBA700BED9D5 /* CoreDataTableViewController.m */,
+				8F40914D151CDBA700BED9D5 /* NSDate+Utils.h */,
+				8F40914E151CDBA700BED9D5 /* NSDate+Utils.m */,
+				8F40914F151CDBA700BED9D5 /* rrdb.csv */,
+				8F409132151CDB3B00BED9D5 /* Supporting Files */,
+			);
+			path = RockAndRollBirthdays;
+			sourceTree = "<group>";
+		};
+		8F409132151CDB3B00BED9D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F409133151CDB3B00BED9D5 /* RockAndRollBirthdays-Info.plist */,
+				8F409134151CDB3B00BED9D5 /* InfoPlist.strings */,
+				8F409137151CDB3B00BED9D5 /* main.m */,
+				8F409139151CDB3B00BED9D5 /* RockAndRollBirthdays-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F409126151CDB3B00BED9D5 /* RockAndRollBirthdays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F409148151CDB3B00BED9D5 /* Build configuration list for PBXNativeTarget "RockAndRollBirthdays" */;
+			buildPhases = (
+				8F409123151CDB3B00BED9D5 /* Sources */,
+				8F409124151CDB3B00BED9D5 /* Frameworks */,
+				8F409125151CDB3B00BED9D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RockAndRollBirthdays;
+			productName = RockAndRollBirthdays;
+			productReference = 8F409127151CDB3B00BED9D5 /* RockAndRollBirthdays.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F40911E151CDB3B00BED9D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8F409121151CDB3B00BED9D5 /* Build configuration list for PBXProject "RockAndRollBirthdays" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8F40911C151CDB3B00BED9D5;
+			productRefGroup = 8F409128151CDB3B00BED9D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F409126151CDB3B00BED9D5 /* RockAndRollBirthdays */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F409125151CDB3B00BED9D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F409136151CDB3B00BED9D5 /* InfoPlist.strings in Resources */,
+				8F40913F151CDB3B00BED9D5 /* MainStoryboard_iPhone.storyboard in Resources */,
+				8F409142151CDB3B00BED9D5 /* MainStoryboard_iPad.storyboard in Resources */,
+				8F409152151CDBA700BED9D5 /* rrdb.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F409123151CDB3B00BED9D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F409138151CDB3B00BED9D5 /* main.m in Sources */,
+				8F40913C151CDB3B00BED9D5 /* RockAndRollBirthdaysAppDelegate.m in Sources */,
+				8F409145151CDB3B00BED9D5 /* RockAndRollBirthdaysViewController.m in Sources */,
+				8F409150151CDBA700BED9D5 /* CoreDataTableViewController.m in Sources */,
+				8F409151151CDBA700BED9D5 /* NSDate+Utils.m in Sources */,
+				8F409155151CE12000BED9D5 /* RRDBModel.xcdatamodeld in Sources */,
+				8F409158151CE27B00BED9D5 /* Artist.m in Sources */,
+				8F40915B151CE41100BED9D5 /* Artist+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F409134151CDB3B00BED9D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F409135151CDB3B00BED9D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8F40913D151CDB3B00BED9D5 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F40913E151CDB3B00BED9D5 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8F409140151CDB3B00BED9D5 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F409141151CDB3B00BED9D5 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F409146151CDB3B00BED9D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F409147151CDB3B00BED9D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F409149151CDB3B00BED9D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RockAndRollBirthdays/RockAndRollBirthdays-Prefix.pch";
+				INFOPLIST_FILE = "RockAndRollBirthdays/RockAndRollBirthdays-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8F40914A151CDB3B00BED9D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RockAndRollBirthdays/RockAndRollBirthdays-Prefix.pch";
+				INFOPLIST_FILE = "RockAndRollBirthdays/RockAndRollBirthdays-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F409121151CDB3B00BED9D5 /* Build configuration list for PBXProject "RockAndRollBirthdays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F409146151CDB3B00BED9D5 /* Debug */,
+				8F409147151CDB3B00BED9D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F409148151CDB3B00BED9D5 /* Build configuration list for PBXNativeTarget "RockAndRollBirthdays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F409149151CDB3B00BED9D5 /* Debug */,
+				8F40914A151CDB3B00BED9D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8F409153151CE11F00BED9D5 /* RRDBModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8F409154151CE11F00BED9D5 /* RRDBModel.xcdatamodel */,
+			);
+			currentVersion = 8F409154151CE11F00BED9D5 /* RRDBModel.xcdatamodel */;
+			path = RRDBModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8F40911E151CDB3B00BED9D5 /* Project object */;
+}
